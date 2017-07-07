@@ -1,0 +1,46 @@
+/*
+
+Calculator
+------
+
+Calculator styles.
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.calculator {
+  width: 50rem;
+  background-color: #61d2d6;
+  border-radius: 6px;
+  margin: auto;
+  text-align: center;
+  padding: 5rem 0;
+  color: #808080;
+
+  h1 {
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    line-height: 1;
+  }
+
+  .btn {
+    width: 100%;
+    background-color: #ea3556;
+    color: #fff;
+  }
+}
+
+.calculator-screen {
+  width: 100%;
+  background-color: #ede5e2;
+  padding: 20px;
+  font-size: 4rem;
+  border-radius: 6px;
+  text-align: right;
+  line-height: 1;
+  min-height: 8rem;
+}

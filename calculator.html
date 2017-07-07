@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="assets/css/sandbox.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700" rel="stylesheet">
+</head>
+<body>
+
+  <div class="calculator" id="calculator">
+    <div class="container">
+      <div class="calculator-header">
+        <h1>electronic calculator</h1>
+        <div class="calculator-screen" id="total"></div>
+      </div>
+      <div class="keyboard-container">
+        <ul class="keyboard keyboard-operator" id="operators">
+          <li class="keyboard-item">
+            <button class="btn">÷</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn is-lowercase">x</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">-</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn btn-tall">+</button>
+          </li>
+
+        </ul>
+        <ul class="keyboard keyboard-number" id="numbers">
+          <li class="keyboard-item">
+            <button class="btn">6</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">7</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">8</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">9</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">2</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">3</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">4</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">5</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">1</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn" id="clearall">AC</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn">0</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn" id="clear">CE</button>
+          </li>
+        </ul>
+        <ul class="keyboard last">
+          <li class="keyboard-item wider">
+            <button class="btn" id="equals">=</button>
+          </li>
+          <li class="keyboard-item">
+            <button class="btn" id="decimal">.</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <script src="assets/javascript/calculator.js"></script>
+
+</body>
+</html>
