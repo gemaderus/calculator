@@ -1,3 +1,4 @@
+var $ = window.$;
 var number = '';
 var newNumber = '';
 var operator = '';
