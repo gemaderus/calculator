@@ -12,35 +12,40 @@ Calculator styles.
 }
 
 .calculator {
-  width: 50rem;
   background-color: #61d2d6;
   border-radius: 6px;
-  margin: auto;
-  text-align: center;
-  padding: 5rem 0;
   color: #808080;
+  margin: auto;
+  padding: 5rem 0;
+  text-align: center;
+  width: 90%;
+  max-width: 50rem;
+
+  @media screen and (min-width: 768px) {
+    width: 50rem;
+  }
 
   h1 {
-    margin: 0;
-    text-transform: uppercase;
-    margin-bottom: 3rem;
     line-height: 1;
+    margin: 0;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
   }
 
   .btn {
-    width: 100%;
     background-color: #ea3556;
     color: #fff;
+    width: 100%;
   }
 }
 
 .calculator-screen {
-  width: 100%;
   background-color: #ede5e2;
-  padding: 20px;
-  font-size: 4rem;
   border-radius: 6px;
-  text-align: right;
+  font-size: 4rem;
   line-height: 1;
   min-height: 8rem;
+  padding: 20px;
+  text-align: right;
+  width: 100%;
 }
